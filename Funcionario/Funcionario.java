@@ -4,6 +4,7 @@ package Funcionario;
 import Interfaces.Apresentacao;
 import Interfaces.PostarMensagem;
 
+
 public class Funcionario implements PostarMensagem, Apresentacao{
     public Funcionario(String nome, String email, String funcao) {
         this.nome = nome;
@@ -15,12 +16,22 @@ public class Funcionario implements PostarMensagem, Apresentacao{
     private String email;
     private String funcao;
 
-    //Retornar nome público    
+    /**
+     * Receber nome público
+     * @param   getNome()   a string recebe o nome
+     * @return  retorna o nome público
+     */    
+
     public String getNome() {
         return nome;
     }
 
-    //Retornar email público
+    /**
+     * Retornar email público
+     * @param   getEmail()  a string recebe o email
+     * @return retorna o email público 
+     */
+
     public String getEmail() {
         return email;
     }
