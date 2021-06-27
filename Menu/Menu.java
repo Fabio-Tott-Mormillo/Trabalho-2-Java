@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package Menu;
 
 import java.util.Scanner;
@@ -90,4 +89,4 @@ public class Menu{
         return scanner.nextInt();
     }
 }
->>>>>>> 521bdcf76103522178fa8d29c7e39cd6b4dedbac
+
